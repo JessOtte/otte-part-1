@@ -1,0 +1,148 @@
+   
+  html { 
+      background: none;
+    }
+
+  body {
+    background-color: #F0ECEE;
+  }
+  
+  .topnav {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+  }
+
+  h2 {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 40%;
+    padding: 10px 20px;
+  }
+  
+  p {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 40%;
+    font-weight: 300;
+  }
+
+
+
+
+@media only screen and (min-width: 768px) {
+html {
+    background: url("bulldog.jpg") no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    background-color: #F0ECEE;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  .logo {
+    position: absolute;
+    padding: 20px 30px;
+    float: left; 
+    font-weight: 600; 
+    color: black;
+  }
+
+  .topnav {
+    font-weight: 300;
+  }
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+    /* margin: 0; */
+    text-decoration: none;
+    letter-spacing: normal;
+}
+
+#nav {
+  margin: 10px;
+  display: flex;
+}
+  #container {
+    text-align: left;
+  }
+
+  h1 {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    width: 40%;
+    padding: 10px 20px;
+  }
+  
+  p {
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    width: 40%;
+    padding: 20px;
+    font-weight: 300;
+  }
+
+  a, a:link, a:visited {
+    color: #88898B;
+    text-decoration: none;
+
+    }
+
+
+a:hover {
+    color:#FF4850;
+}
+
+
+
+.button1 {
+  color: white;
+  background-color: #FF4850;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button1:link {
+  color: white;
+}
+
+.button1:hover {
+  color: #FF4850;
+  background-color: #CCC; 
+  text-decoration: none;
+}
+
+.button2 {
+  color: white;
+  background-color: #FF4850;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 25%;
+}
+
+.button2:link {
+  color: white;
+}
+
+.button2:hover {
+  color: #FF4850;
+  background-color: #CCC; 
+  text-decoration: none;
+}
+
+
+}
