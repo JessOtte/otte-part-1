@@ -1,33 +1,150 @@
-   
-  html { 
-      background: none;
-    }
+@media only screen and (min-width : 150px) and (max-width : 767px) {
 
-  body {
+
+
+  html {
     background-color: #F0ECEE;
-  }
-  
-  .topnav {
-      text-align: center;
-      display: flex;
-      flex-direction: column;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+
   }
 
-  h2 {
+  .logo {
     position: absolute;
-    top: 150px;
-    left: 0;
-    width: 40%;
-    padding: 10px 20px;
+    padding: 5px 5px;
+    margin: 0;
+    float: left; 
+    font-weight: 600; 
+    color: black;
+    font-size: 26px;
+  }
+
+  .topnav {
+    font-size: 19px;
+    font-weight: 400;
+    width: 100%;
+
+  }
+
+ul {
+    position: absolute;  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    letter-spacing: normal;
+    padding: 28px 5px;
+}
+
+li{
+  margin: 1px 0;
+}
+
+
+  #container {
+    text-align: left;
+  }
+
+  h1 {
+    position: absolute;
+    top: 140px;
+    left: 10px;
+    padding: 50px 10px;
+    font-size: 35px;
+    font-weight: 900;
   }
   
   p {
     position: absolute;
-    top: 250px;
-    left: 0;
-    width: 40%;
-    font-weight: 300;
+    top: 295px;
+    left: 20px;
+    width: 90%;
+    font-weight: 400;
+    color: #88898B;
+    font-size: 15px;
   }
+
+  a, a:link, a:visited {
+    color: #88898B;
+    text-decoration: none;
+
+    }
+
+
+a:hover {
+    color:#FF4850;
+}
+
+
+
+.button1 {
+  color: white;
+  background-color: #FF4850;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+
+.button2 {
+  color: white;
+  font-size: 20px;
+  background-color: #FF4850;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.button1:link {
+  color: white;
+}
+
+.button1:hover {
+  color: #FF4850;
+  background-color: #CCC; 
+  text-decoration: none;
+}
+
+
+.button2:link {
+  color: white;
+}
+
+.button2:hover {
+  color: #FF4850;
+  background-color: #CCC; 
+  text-decoration: none;
+}
+
+#bodybutton {
+  display: block;
+  width: 100%;
+}
+
+#navbutton {
+  display: block;
+  width: 100%;
+}
+
+
+}
+
+
+
+/* DESKTOP BEGINS
+DESKTOP BEGINS
+DESKTOP BEGINS */
 
 
 
@@ -51,6 +168,7 @@ html {
   }
 
   .topnav {
+    font-size: 14px;
     font-weight: 300;
   }
 
@@ -60,9 +178,9 @@ ul {
     flex-wrap: wrap;
     justify-content: flex-end;
     list-style-type: none;
-    /* margin: 0; */
     text-decoration: none;
     letter-spacing: normal;
+    padding: 20px 30px;
 }
 
 #nav {
@@ -74,19 +192,23 @@ ul {
 
   h1 {
     position: absolute;
-    top: 150px;
+    top: 140px;
     left: 20px;
     width: 40%;
     padding: 10px 20px;
+    font-size: 23px;
+    font-weight: 900;
   }
   
   p {
     position: absolute;
-    top: 240px;
+    top: 210px;
     left: 20px;
     width: 40%;
     padding: 20px;
     font-weight: 300;
+    color: #88898B;
+    font-size: 14px;
   }
 
   a, a:link, a:visited {
@@ -108,9 +230,23 @@ a:hover {
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  border-radius: 15px;
+  border-radius: 5px;
   cursor: pointer;
 }
+
+
+
+.button2 {
+  color: white;
+  font-size: 13px;
+  background-color: #FF4850;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 
 .button1:link {
   color: white;
@@ -122,16 +258,6 @@ a:hover {
   text-decoration: none;
 }
 
-.button2 {
-  color: white;
-  background-color: #FF4850;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 15px;
-  cursor: pointer;
-  width: 25%;
-}
 
 .button2:link {
   color: white;
@@ -143,5 +269,8 @@ a:hover {
   text-decoration: none;
 }
 
+#bodybutton {
+  padding: 10px 50px;
+}
 
 }
