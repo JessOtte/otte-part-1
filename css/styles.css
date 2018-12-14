@@ -6,15 +6,12 @@
     background-color: #F0ECEE;
     color: black;
     font-family: 'Fira Sans', sans-serif;
-    margin: 0;
-    width: 100%;
-
+    text-align: center;
   }
 
   .logo {
     position: absolute;
     padding: 5px 5px;
-    margin: 0;
     float: left; 
     font-weight: 600; 
     color: black;
@@ -24,8 +21,6 @@
   .topnav {
     font-size: 19px;
     font-weight: 400;
-    width: 100%;
-
   }
 
 ul {
@@ -38,12 +33,13 @@ ul {
     text-decoration: none;
     letter-spacing: normal;
     padding: 28px 5px;
-    width: 100%;
+    width: 90%;
 }
 
 li{
   margin: 1px 0;
 }
+
 
 
   #container {
@@ -52,21 +48,19 @@ li{
 
   h1 {
     position: absolute;
-    top: 140px;
-    left: 10px;
-    padding: 50px 10px;
+    padding: 210px 6px;
     font-size: 35px;
     font-weight: 900;
   }
   
   p {
     position: absolute;
-    top: 295px;
-    left: 20px;
-    width: 90%;
+    top: 315px;
+    left: 14px;
     font-weight: 400;
     color: #88898B;
     font-size: 15px;
+    width: 90%;
   }
 
   a, a:link, a:visited {
@@ -104,7 +98,6 @@ a:hover {
   text-decoration: none;
   border-radius: 5px;
   cursor: pointer;
-  width: 100%;
 }
 
 
@@ -130,15 +123,14 @@ a:hover {
 }
 
 #bodybutton {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
 
 #navbutton {
   display: block;
   width: 100%;
 }
-
 
 }
 
@@ -153,7 +145,7 @@ DESKTOP BEGINS */
 
 @media only screen and (min-width: 768px) {
 html {
-    background: url("bulldog.jpg") no-repeat center fixed;
+  background: url("../bulldog.jpg") no-repeat center fixed;
     background-size: cover;
     width: 100%;
     background-color: #F0ECEE;
