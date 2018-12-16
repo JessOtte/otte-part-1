@@ -1,29 +1,25 @@
 @media only screen and (min-width : 150px) and (max-width : 767px) {
-
-
-
-  html {
+   html {
     background-color: #F0ECEE;
     color: black;
     font-family: 'Fira Sans', sans-serif;
-    text-align: center;
-  }
-
-  .logo {
+    margin: 0;
+    width: 100%;
+   }
+   .logo {
     position: absolute;
     padding: 5px 5px;
+    margin: 0;
     float: left; 
     font-weight: 600; 
     color: black;
     font-size: 26px;
   }
-
   .topnav {
     font-size: 19px;
     font-weight: 400;
   }
-
-ul {
+ ul {
     position: absolute;  
     display: flex;
     flex-direction: column;
@@ -35,20 +31,18 @@ ul {
     padding: 28px 5px;
     width: 90%;
 }
-
-li{
+ li{
   margin: 1px 0;
 }
-
-
-
-  #container {
+   #container {
     text-align: left;
   }
-
   h1 {
     position: absolute;
-    padding: 210px 6px;
+    top: 140px;
+    left: 13px;
+    right: 25px;
+    padding: 75px 2px;
     font-size: 35px;
     font-weight: 900;
   }
@@ -56,27 +50,24 @@ li{
   p {
     position: absolute;
     top: 315px;
-    left: 14px;
+    left: 13px;
     font-weight: 400;
     color: #88898B;
     font-size: 15px;
     width: 90%;
   }
-
   a, a:link, a:visited {
     color: #88898B;
     text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
 
     }
-
-
-a:hover {
+ a:hover {
     color:#FF4850;
 }
-
-
-
-.button1 {
+ .button1 {
   color: white;
   background-color: #FF4850;
   padding: 10px;
@@ -99,8 +90,6 @@ a:hover {
   border-radius: 5px;
   cursor: pointer;
 }
-
-
 .button1:link {
   color: white;
 }
@@ -115,25 +104,20 @@ a:hover {
 .button2:link {
   color: white;
 }
-
-.button2:hover {
+ .button2:hover {
   color: #FF4850;
   background-color: #CCC; 
   text-decoration: none;
 }
-
-#bodybutton {
-    display: block;
-    width: 100%;
-}
-
-#navbutton {
+ #bodybutton {
   display: block;
   width: 100%;
 }
-
+ #navbutton {
+  display: block;
+  width: 100%;
 }
-
+ }
 
 
 /* DESKTOP BEGINS
@@ -247,6 +231,9 @@ a:hover {
 .button1:link {
   color: white;
 }
+.button1:visited {
+	color: white;
+}
 
 .button1:hover {
   color: #FF4850;
@@ -259,6 +246,10 @@ a:hover {
   color: white;
 }
 
+.button2:visited {
+color: white;
+}
+
 .button2:hover {
   color: #FF4850;
   background-color: #CCC; 
@@ -268,5 +259,6 @@ a:hover {
 #bodybutton {
   padding: 10px 50px;
 }
+
 
 }
